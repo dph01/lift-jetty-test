@@ -5,3 +5,6 @@ addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.1.0")
 
 //Uncoment this line to enable the sbt eclipse plugin
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0")
+
+// https://github.com/jrudolph/sbt-dependency-graph
+addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.7.0")

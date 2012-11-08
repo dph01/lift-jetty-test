@@ -1,0 +1,321 @@
+[info] net.liftweb:lift-jetty-test_2.9.1:0.0.1 [S]
+[info]   +-ch.qos.logback:logback-classic:1.0.6
+[info]   | +-ch.qos.logback:logback-core:1.0.6
+[info]   | +-org.slf4j:slf4j-api:1.6.5
+[info]   | 
+[info]   +-com.h2database:h2:1.3.167
+[info]   +-net.liftmodules:lift-jquery-module_2.9.1:2.5-M2-1.0 [S]
+[info]   | +-net.liftweb:lift-testkit_2.9.1:2.5-M2 [S]
+[info]   | | +-commons-httpclient:commons-httpclient:3.1
+[info]   | | | +-commons-codec:commons-codec:1.2 (evicted by: 1.6)
+[info]   | | | +-commons-logging:commons-logging:1.0.4 (evicted by: 1.1.1)
+[info]   | | | 
+[info]   | | +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   | |   +-commons-codec:commons-codec:1.6
+[info]   | |   +-javax.mail:mail:1.4.4
+[info]   | |   | +-javax.activation:activation:1.1
+[info]   | |   | 
+[info]   | |   +-joda-time:joda-time:1.6.2
+[info]   | |   +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   | |   | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   | |   |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   | |   |   
+[info]   | |   +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   | |   | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   | |   | +-org.scala-lang:scalap:2.9.1
+[info]   | |   |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |   |   
+[info]   | |   +-nu.validator.htmlparser:htmlparser:1.4
+[info]   | |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |   
+[info]   | +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   |   +-commons-fileupload:commons-fileupload:1.2.2
+[info]   |   +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   |     +-commons-codec:commons-codec:1.6
+[info]   |     +-javax.mail:mail:1.4.4
+[info]   |     | +-javax.activation:activation:1.1
+[info]   |     | 
+[info]   |     +-joda-time:joda-time:1.6.2
+[info]   |     +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   |     | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   |     |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   |     |   
+[info]   |     +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   |     | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   |     | +-org.scala-lang:scalap:2.9.1
+[info]   |     |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |     |   
+[info]   |     +-nu.validator.htmlparser:htmlparser:1.4
+[info]   |     +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |     
+[info]   +-net.liftweb:lift-mapper_2.9.1:2.5-M2 [S]
+[info]   | +-net.liftweb:lift-db_2.9.1:2.5-M2 [S]
+[info]   | | +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   | | | +-commons-codec:commons-codec:1.6
+[info]   | | | +-javax.mail:mail:1.4.4
+[info]   | | | | +-javax.activation:activation:1.1
+[info]   | | | | 
+[info]   | | | +-joda-time:joda-time:1.6.2
+[info]   | | | +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   | | | | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   | | | |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   | | | |   
+[info]   | | | +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   | | | | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   | | | | +-org.scala-lang:scalap:2.9.1
+[info]   | | | |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | | | |   
+[info]   | | | +-nu.validator.htmlparser:htmlparser:1.4
+[info]   | | | +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | | | 
+[info]   | | +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   | |   +-commons-fileupload:commons-fileupload:1.2.2
+[info]   | |   +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   | |     +-commons-codec:commons-codec:1.6
+[info]   | |     +-javax.mail:mail:1.4.4
+[info]   | |     | +-javax.activation:activation:1.1
+[info]   | |     | 
+[info]   | |     +-joda-time:joda-time:1.6.2
+[info]   | |     +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   | |     | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   | |     |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   | |     |   
+[info]   | |     +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   | |     | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   | |     | +-org.scala-lang:scalap:2.9.1
+[info]   | |     |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |     |   
+[info]   | |     +-nu.validator.htmlparser:htmlparser:1.4
+[info]   | |     +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |     
+[info]   | +-net.liftweb:lift-proto_2.9.1:2.5-M2 [S]
+[info]   |   +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   |     +-commons-fileupload:commons-fileupload:1.2.2
+[info]   |     +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   |       +-commons-codec:commons-codec:1.6
+[info]   |       +-javax.mail:mail:1.4.4
+[info]   |       | +-javax.activation:activation:1.1
+[info]   |       | 
+[info]   |       +-joda-time:joda-time:1.6.2
+[info]   |       +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   |       | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   |       |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   |       |   
+[info]   |       +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   |       | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   |       | +-org.scala-lang:scalap:2.9.1
+[info]   |       |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |       |   
+[info]   |       +-nu.validator.htmlparser:htmlparser:1.4
+[info]   |       +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |       
+[info]   +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   | +-commons-fileupload:commons-fileupload:1.2.2
+[info]   | +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   |   +-commons-codec:commons-codec:1.6
+[info]   |   +-javax.mail:mail:1.4.4
+[info]   |   | +-javax.activation:activation:1.1
+[info]   |   | 
+[info]   |   +-joda-time:joda-time:1.6.2
+[info]   |   +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   |   | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   |   |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   |   |   
+[info]   |   +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   |   | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   |   | +-org.scala-lang:scalap:2.9.1
+[info]   |   |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |   |   
+[info]   |   +-nu.validator.htmlparser:htmlparser:1.4
+[info]   |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |   
+[info]   +-org.seleniumhq.selenium:selenium-server:2.25.0
+[info]     +-commons-codec:commons-codec:1.6
+[info]     +-mx4j:mx4j-tools:3.0.1
+[info]     +-net.jcip:jcip-annotations:1.0
+[info]     +-org.bouncycastle:bcpkix-jdk15on:1.47
+[info]     | +-org.bouncycastle:bcprov-jdk15on:1.47
+[info]     | 
+[info]     +-org.bouncycastle:bcprov-jdk15on:1.47
+[info]     +-org.mortbay.jetty:servlet-api-2.5:6.1.9
+[info]     +-org.seleniumhq.selenium:jetty-repacked:7.6.1
+[info]     +-org.seleniumhq.selenium:selenium-java:2.25.0
+[info]     | +-org.seleniumhq.selenium:selenium-android-driver:2.25.0
+[info]     | | +-org.seleniumhq.selenium:selenium-remote-driver:2.25.0
+[info]     | |   +-cglib:cglib-nodep:2.1_3
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-net.java.dev.jna:jna:3.4.0
+[info]     | |   +-net.java.dev.jna:platform:3.4.0
+[info]     | |   +-org.apache.commons:commons-exec:1.1
+[info]     | |   +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | |   | +-commons-codec:commons-codec:1.6
+[info]     | |   | +-commons-logging:commons-logging:1.1.1
+[info]     | |   | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |     +-com.google.guava:guava:12.0
+[info]     | |     | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |     | 
+[info]     | |     +-org.json:json:20080701
+[info]     | |     
+[info]     | +-org.seleniumhq.selenium:selenium-chrome-driver:2.25.0
+[info]     | | +-org.seleniumhq.selenium:selenium-remote-driver:2.25.0
+[info]     | |   +-cglib:cglib-nodep:2.1_3
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-net.java.dev.jna:jna:3.4.0
+[info]     | |   +-net.java.dev.jna:platform:3.4.0
+[info]     | |   +-org.apache.commons:commons-exec:1.1
+[info]     | |   +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | |   | +-commons-codec:commons-codec:1.6
+[info]     | |   | +-commons-logging:commons-logging:1.1.1
+[info]     | |   | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |     +-com.google.guava:guava:12.0
+[info]     | |     | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |     | 
+[info]     | |     +-org.json:json:20080701
+[info]     | |     
+[info]     | +-org.seleniumhq.selenium:selenium-firefox-driver:2.25.0
+[info]     | | +-commons-io:commons-io:2.0.1
+[info]     | | +-org.apache.commons:commons-exec:1.1
+[info]     | | +-org.seleniumhq.selenium:selenium-remote-driver:2.25.0
+[info]     | |   +-cglib:cglib-nodep:2.1_3
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-net.java.dev.jna:jna:3.4.0
+[info]     | |   +-net.java.dev.jna:platform:3.4.0
+[info]     | |   +-org.apache.commons:commons-exec:1.1
+[info]     | |   +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | |   | +-commons-codec:commons-codec:1.6
+[info]     | |   | +-commons-logging:commons-logging:1.1.1
+[info]     | |   | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |     +-com.google.guava:guava:12.0
+[info]     | |     | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |     | 
+[info]     | |     +-org.json:json:20080701
+[info]     | |     
+[info]     | +-org.seleniumhq.selenium:selenium-htmlunit-driver:2.25.0
+[info]     | | +-net.sourceforge.htmlunit:htmlunit:2.9
+[info]     | | | +-commons-codec:commons-codec:1.6
+[info]     | | | +-commons-collections:commons-collections:3.2.1
+[info]     | | | +-commons-io:commons-io:2.0.1
+[info]     | | | +-commons-lang:commons-lang:2.6
+[info]     | | | +-commons-logging:commons-logging:1.1.1
+[info]     | | | +-net.sourceforge.cssparser:cssparser:0.9.5
+[info]     | | | | +-org.w3c.css:sac:1.3
+[info]     | | | | 
+[info]     | | | +-net.sourceforge.htmlunit:htmlunit-core-js:2.9
+[info]     | | | +-net.sourceforge.nekohtml:nekohtml:1.9.15
+[info]     | | | +-org.apache.httpcomponents:httpmime:4.1.2
+[info]     | | | | +-commons-logging:commons-logging:1.1.1
+[info]     | | | | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | | | | 
+[info]     | | | +-xalan:xalan:2.7.1
+[info]     | | | | +-xalan:serializer:2.7.1
+[info]     | | | |   +-xml-apis:xml-apis:1.3.04
+[info]     | | | |   
+[info]     | | | +-xerces:xercesImpl:2.9.1
+[info]     | | |   +-xml-apis:xml-apis:1.3.04
+[info]     | | |   
+[info]     | | +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | | | +-commons-codec:commons-codec:1.6
+[info]     | | | +-commons-logging:commons-logging:1.1.1
+[info]     | | | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | | | 
+[info]     | | +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   
+[info]     | +-org.seleniumhq.selenium:selenium-ie-driver:2.25.0
+[info]     | | +-net.java.dev.jna:jna:3.4.0
+[info]     | | +-net.java.dev.jna:platform:3.4.0
+[info]     | | +-org.seleniumhq.selenium:selenium-remote-driver:2.25.0
+[info]     | |   +-cglib:cglib-nodep:2.1_3
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-net.java.dev.jna:jna:3.4.0
+[info]     | |   +-net.java.dev.jna:platform:3.4.0
+[info]     | |   +-org.apache.commons:commons-exec:1.1
+[info]     | |   +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | |   | +-commons-codec:commons-codec:1.6
+[info]     | |   | +-commons-logging:commons-logging:1.1.1
+[info]     | |   | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |     +-com.google.guava:guava:12.0
+[info]     | |     | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |     | 
+[info]     | |     +-org.json:json:20080701
+[info]     | |     
+[info]     | +-org.seleniumhq.selenium:selenium-iphone-driver:2.25.0
+[info]     | | +-org.seleniumhq.selenium:selenium-remote-driver:2.25.0
+[info]     | |   +-cglib:cglib-nodep:2.1_3
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-net.java.dev.jna:jna:3.4.0
+[info]     | |   +-net.java.dev.jna:platform:3.4.0
+[info]     | |   +-org.apache.commons:commons-exec:1.1
+[info]     | |   +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | |   | +-commons-codec:commons-codec:1.6
+[info]     | |   | +-commons-logging:commons-logging:1.1.1
+[info]     | |   | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |     +-com.google.guava:guava:12.0
+[info]     | |     | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |     | 
+[info]     | |     +-org.json:json:20080701
+[info]     | |     
+[info]     | +-org.seleniumhq.selenium:selenium-safari-driver:2.25.0
+[info]     | | +-org.seleniumhq.selenium:selenium-remote-driver:2.25.0
+[info]     | | | +-cglib:cglib-nodep:2.1_3
+[info]     | | | +-com.google.guava:guava:12.0
+[info]     | | | | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | | | | 
+[info]     | | | +-net.java.dev.jna:jna:3.4.0
+[info]     | | | +-net.java.dev.jna:platform:3.4.0
+[info]     | | | +-org.apache.commons:commons-exec:1.1
+[info]     | | | +-org.apache.httpcomponents:httpclient:4.1.2
+[info]     | | | | +-commons-codec:commons-codec:1.6
+[info]     | | | | +-commons-logging:commons-logging:1.1.1
+[info]     | | | | +-org.apache.httpcomponents:httpcore:4.1.3
+[info]     | | | | 
+[info]     | | | +-org.json:json:20080701
+[info]     | | | +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | | |   +-com.google.guava:guava:12.0
+[info]     | | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | | |   | 
+[info]     | | |   +-org.json:json:20080701
+[info]     | | |   
+[info]     | | +-org.webbitserver:webbit:0.4.6
+[info]     | |   +-org.jboss.netty:netty:3.2.7.Final
+[info]     | |   
+[info]     | +-org.seleniumhq.selenium:selenium-support:2.25.0
+[info]     | | +-org.seleniumhq.selenium:selenium-api:2.25.0
+[info]     | |   +-com.google.guava:guava:12.0
+[info]     | |   | +-com.google.code.findbugs:jsr305:1.3.9
+[info]     | |   | 
+[info]     | |   +-org.json:json:20080701
+[info]     | |   
+[info]     | +-org.webbitserver:webbit:0.4.6
+[info]     |   +-org.jboss.netty:netty:3.2.7.Final
+[info]     |   
+[info]     +-org.yaml:snakeyaml:1.8
+[info] 

@@ -7,7 +7,11 @@ To see the error, run
 The starting point for the project is the lift_basic template: 
 [https://github.com/lift/lift_25_sbt/](https://github.com/lift/lift_25_sbt/)
 
-The error is caused by adding the 'val context = new WebAppContext()' in the following:
+The error is caused by adding the dependency:
+
+    "org.seleniumhq.selenium" % "selenium-server" % "2.25.0" % "compile,test",
+
+and the 'val context = new WebAppContext()' in the following:
 
     class HelloWorldTestSpecs extends Specification {
       val server = new Server

@@ -1,0 +1,131 @@
+[info] net.liftweb:lift-jetty-test_2.9.1:0.0.1 [S]
+[info]   +-ch.qos.logback:logback-classic:1.0.6
+[info]   | +-ch.qos.logback:logback-core:1.0.6
+[info]   | +-org.slf4j:slf4j-api:1.6.5
+[info]   | 
+[info]   +-com.h2database:h2:1.3.167
+[info]   +-net.liftmodules:lift-jquery-module_2.9.1:2.5-M2-1.0 [S]
+[info]   | +-net.liftweb:lift-testkit_2.9.1:2.5-M2 [S]
+[info]   | | +-commons-httpclient:commons-httpclient:3.1
+[info]   | | | +-commons-codec:commons-codec:1.2 (evicted by: 1.6)
+[info]   | | | +-commons-logging:commons-logging:1.0.4
+[info]   | | | 
+[info]   | | +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   | |   +-commons-codec:commons-codec:1.6
+[info]   | |   +-javax.mail:mail:1.4.4
+[info]   | |   | +-javax.activation:activation:1.1
+[info]   | |   | 
+[info]   | |   +-joda-time:joda-time:1.6.2
+[info]   | |   +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   | |   | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   | |   |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   | |   |   
+[info]   | |   +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   | |   | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   | |   | +-org.scala-lang:scalap:2.9.1
+[info]   | |   |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |   |   
+[info]   | |   +-nu.validator.htmlparser:htmlparser:1.4
+[info]   | |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |   
+[info]   | +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   |   +-commons-fileupload:commons-fileupload:1.2.2
+[info]   |   +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   |     +-commons-codec:commons-codec:1.6
+[info]   |     +-javax.mail:mail:1.4.4
+[info]   |     | +-javax.activation:activation:1.1
+[info]   |     | 
+[info]   |     +-joda-time:joda-time:1.6.2
+[info]   |     +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   |     | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   |     |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   |     |   
+[info]   |     +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   |     | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   |     | +-org.scala-lang:scalap:2.9.1
+[info]   |     |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |     |   
+[info]   |     +-nu.validator.htmlparser:htmlparser:1.4
+[info]   |     +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |     
+[info]   +-net.liftweb:lift-mapper_2.9.1:2.5-M2 [S]
+[info]   | +-net.liftweb:lift-db_2.9.1:2.5-M2 [S]
+[info]   | | +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   | | | +-commons-codec:commons-codec:1.6
+[info]   | | | +-javax.mail:mail:1.4.4
+[info]   | | | | +-javax.activation:activation:1.1
+[info]   | | | | 
+[info]   | | | +-joda-time:joda-time:1.6.2
+[info]   | | | +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   | | | | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   | | | |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   | | | |   
+[info]   | | | +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   | | | | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   | | | | +-org.scala-lang:scalap:2.9.1
+[info]   | | | |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | | | |   
+[info]   | | | +-nu.validator.htmlparser:htmlparser:1.4
+[info]   | | | +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | | | 
+[info]   | | +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   | |   +-commons-fileupload:commons-fileupload:1.2.2
+[info]   | |   +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   | |     +-commons-codec:commons-codec:1.6
+[info]   | |     +-javax.mail:mail:1.4.4
+[info]   | |     | +-javax.activation:activation:1.1
+[info]   | |     | 
+[info]   | |     +-joda-time:joda-time:1.6.2
+[info]   | |     +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   | |     | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   | |     |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   | |     |   
+[info]   | |     +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   | |     | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   | |     | +-org.scala-lang:scalap:2.9.1
+[info]   | |     |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |     |   
+[info]   | |     +-nu.validator.htmlparser:htmlparser:1.4
+[info]   | |     +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   | |     
+[info]   | +-net.liftweb:lift-proto_2.9.1:2.5-M2 [S]
+[info]   |   +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]   |     +-commons-fileupload:commons-fileupload:1.2.2
+[info]   |     +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]   |       +-commons-codec:commons-codec:1.6
+[info]   |       +-javax.mail:mail:1.4.4
+[info]   |       | +-javax.activation:activation:1.1
+[info]   |       | 
+[info]   |       +-joda-time:joda-time:1.6.2
+[info]   |       +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]   |       | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]   |       |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]   |       |   
+[info]   |       +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]   |       | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]   |       | +-org.scala-lang:scalap:2.9.1
+[info]   |       |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |       |   
+[info]   |       +-nu.validator.htmlparser:htmlparser:1.4
+[info]   |       +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]   |       
+[info]   +-net.liftweb:lift-webkit_2.9.1:2.5-M2 [S]
+[info]     +-commons-fileupload:commons-fileupload:1.2.2
+[info]     +-net.liftweb:lift-util_2.9.1:2.5-M2 [S]
+[info]       +-commons-codec:commons-codec:1.6
+[info]       +-javax.mail:mail:1.4.4
+[info]       | +-javax.activation:activation:1.1
+[info]       | 
+[info]       +-joda-time:joda-time:1.6.2
+[info]       +-net.liftweb:lift-actor_2.9.1:2.5-M2 [S]
+[info]       | +-net.liftweb:lift-common_2.9.1:2.5-M2 [S]
+[info]       |   +-org.slf4j:slf4j-api:1.6.4 (evicted by: 1.6.5)
+[info]       |   
+[info]       +-net.liftweb:lift-json_2.9.1:2.5-M2 [S]
+[info]       | +-com.thoughtworks.paranamer:paranamer:2.4.1
+[info]       | +-org.scala-lang:scalap:2.9.1
+[info]       |   +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]       |   
+[info]       +-nu.validator.htmlparser:htmlparser:1.4
+[info]       +-org.scala-lang:scala-compiler:2.9.1 [S]
+[info]       
